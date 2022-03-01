@@ -13,6 +13,29 @@ The features in this app as of now:
 * Explore various categories of wallpapers
 * Add images to favorites
 
+## App Screenshots
+
+<p align="center">
+  <img width="32%" src="images/1.png?raw=true">
+  <img width="32%" src="images/2.png?raw=true">
+  <img width="32%" src="images/3.png?raw=true">
+  <img width="32%" src="images/4.png?raw=true">
+  <img width="32%" src="images/5.png?raw=true">
+  <img width="32%" src="images/6.png?raw=true">
+  <img width="32%" src="images/7.png?raw=true">
+  <img width="32%" src="images/8.png?raw=true">
+  <img width="32%" src="images/9.png?raw=true">
+  <img width="32%" src="images/10.png?raw=true">
+  <img width="32%" src="images/11.png?raw=true">
+
+</p>
+
+## App Demo
+
+<p align="center">
+  <img width="50%" src="images/demo.mp4?raw=true">
+</p>
+
 ## Plugins
 
 **Table of contents:**
