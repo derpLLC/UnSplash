@@ -21,10 +21,19 @@ class _HomePageState extends State<HomePage>
   @override
   void initState() {
     super.initState();
-    getMyImages();
+    getAwesomeStart();
     scrolls.addListener(() {
       if (scrolls.position.pixels == scrolls.position.maxScrollExtent) {
         getMyImages();
+      }
+    });
+  }
+
+  void getAwesomeStart() async {
+    List<ImageModel> images = await image.getCollectionImages('2423569', 1, 20);
+    setState(() {
+      for (var image in images) {
+        myImage.add(image);
       }
     });
   }

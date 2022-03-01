@@ -12,6 +12,22 @@ class GetImages {
     return apiKey;
   }
 
+  Future<List<ImageModel>> getCollectionImages(
+      String id, int page, int perPage) async {
+    String apiKey = await getKey();
+    final response = await http.get(Uri.parse(
+        'https://api.unsplash.com/collections/$id/photos?client_id=$apiKey&page=$page&per_page=$perPage'));
+
+    if (response.statusCode == 200) {
+      List<dynamic> result = jsonDecode(response.body);
+      List<ImageModel> images =
+          result.map((e) => ImageModel.fromJson(e)).toList();
+      return images;
+    } else {
+      throw "Can't get images";
+    }
+  }
+
   Future<List<ImageModel>> getRandomImages() async {
     String apiKey = await getKey();
     final response = await http.get(Uri.parse(
