@@ -4,6 +4,15 @@ Minimal Unsplash Android App to easily search, explore and download images using
 Download Button to download the image. User can set the image as a wallpaper.
 There is a favorite icon, which user can tap to mark/un-mark that image as a favorite. User can search for their respective images :D
 
+# Features
+
+The features in this app as of now:
+
+* Set images as wallpaper
+* Download and save images locally
+* Explore various categories of wallpapers
+* Add images to favorites
+
 ## Plugins
 
 **Table of contents:**
