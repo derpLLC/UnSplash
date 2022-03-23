@@ -30,11 +30,13 @@ The features in this app as of now:
 
 </p>
 
-## App Demo
+[comment]: <> (## App Demo)
 
-<p align="center">
-  <img width="50%" src="images/demo.mp4?raw=true">
-</p>
+[comment]: <> (<p align="center">)
+
+[comment]: <> (  <img width="50%" src="images/demo.mp4?raw=true">)
+
+[comment]: <> (</p>)
 
 ## Plugins
 
