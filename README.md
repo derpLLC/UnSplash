@@ -73,7 +73,7 @@ Then run the following commands
 Clone the project
 
 ```bash
-  git clone git@github.com:Ayushd70/UnSplash.git
+  git clone git@github.com:derpLLC/UnSplash.git
 ```
 
 Go to the project directory
